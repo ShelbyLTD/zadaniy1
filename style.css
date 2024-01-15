@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+main {
+  background: url(img/bg.png), lightgray 50%/cover no-repeat;
+  background-size: cover;
+  width: 1440px;
+  margin: auto;
+}
+
+.header-content {
+  display: flex;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+.header-content a {
+  color: #fff;
+}
+
+.new-head {
+  display: none;
+}
+
+.header-content {
+  display: flex;
+}
+.header-content .new-head {
+  display: none;
+}
+.header-content .menu-top {
+  display: grid;
+  grid-template-columns: 157px 248px 200px 155px 67px;
+}
+.header-content .menu-bottom {
+  display: grid;
+  grid-template-columns: 291px 208px 134px 194px;
+}
+.header-content .border {
+  border: #fff solid 1px;
+  display: flex;
+}
+.header-content .menu--text {
+  border: #fff solid 1px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter Tight;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px;
+}
+.header-content .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Unbounded;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px;
+}
+.header-content .slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-family: Unbounded;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+  margin-left: 96px;
+  margin-top: 223px;
+  background: linear-gradient(91deg, #c6f1f7 -4.01%, #f983e9 36.14%, #b877ff 77.44%, #c2e9cd 106.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.first-line .text1 {
+  font-family: Unbounded;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+  margin-right: 25px;
+}
+
+.second-line {
+  margin-top: 67px;
+  margin-left: 96px;
+  justify-content: space-between;
+  display: flex;
+}
+.second-line h1 {
+  font-family: Unbounded;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background: linear-gradient(91deg, #c6f1f7 -4.01%, #f983e9 36.14%, #b877ff 77.44%, #c2e9cd 106.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.second-line p {
+  color: #fff;
+  font-family: Unbounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 340px;
+  bottom: 47px;
+}
+.second-line .sl-right--text {
+  margin-right: 120px;
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(91deg, #c6f1f7 -4.01%, #f983e9 36.14%, #b877ff 77.44%, #c2e9cd 106.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pod {
+  display: none;
+}
+
+footer {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.7);
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  font-family: Unbounded;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(91deg, #c6f1f7 -4.01%, #f983e9 36.14%, #b877ff 77.44%, #c2e9cd 106.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .footer-content--item {
+  width: 240px;
+  padding-bottom: 23px;
+  border-bottom: 2px #fff solid;
+}
+
+@media (max-width: 375px) {
+  .header-content {
+    display: none;
+  }
+  .new-head {
+    display: flex;
+    padding: 20px;
+  }
+  .new-pups {
+    display: grid;
+    grid-template-columns: repeat(1, 220px);
+    border: #fff solid 1px;
+    height: 55px;
+  }
+  .new-pups a {
+    font-family: Unbounded;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    left: 40px;
+  }
+  .new-pups .logopups {
+    position: relative;
+    top: 10px;
+    left: 37px;
+  }
+  .menu-pups {
+    display: grid;
+    grid-template-columns: repeat(1, 115px);
+    border: #fff solid 1px;
+  }
+  .menu-pups a {
+    font-family: Unbounded;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 35px;
+  }
+  main {
+    background-image: url(img/max_shirko_None_b20aa929-95e1-4cff-81b4-8d0306ac0b3e-2\ 1.png);
+    background-size: 100%;
+    width: 375px;
+  }
+  .first-line {
+    display: flex;
+    margin: 0;
+    padding-top: 50px;
+    padding-right: 25px;
+    justify-content: end;
+  }
+  .first-line .text1 {
+    margin: 7px;
+    font-size: 32px;
+  }
+  .first-line .text2 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .second-line {
+    display: block;
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 20px;
+  }
+  .second-line p {
+    position: static;
+    font-size: 12px;
+    padding-top: 8px;
+    font-weight: 400;
+  }
+  .second-line .sl-right {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 80px;
+  }
+  .second-line .sl-right--text {
+    padding-top: 11px;
+    padding-bottom: 75px;
+  }
+  .second-line .img-palka {
+    position: relative;
+    left: 175px;
+    top: 7px;
+  }
+  .second-line h1 {
+    font-size: 32px;
+  }
+  footer {
+    display: none;
+  }
+  .pod {
+    display: flex;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .pod .footer-cont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    position: relative;
+    top: 20px;
+    font-family: Unbounded;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(91deg, #c6f1f7 -4.01%, #f983e9 36.14%, #b877ff 77.44%, #c2e9cd 106.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .pod .footer-content-item1 {
+    width: 113px;
+    padding-bottom: 12px;
+    border-bottom: 2px #fff solid;
+    padding-top: 1px;
+  }
+  .pod .footer-content-item2 {
+    padding-top: 18px;
+    width: 113px;
+    border-bottom: 2px #fff solid;
+    padding-bottom: 12px;
+  }
+  .pod .footer-content-item3 {
+    width: 113px;
+    border-bottom: 2px #fff solid;
+    padding-bottom: 12px;
+  }
+  .pod .footer-content-item4 {
+    padding-top: 18px;
+    width: 113px;
+    border-bottom: 2px #fff solid;
+    padding-bottom: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
